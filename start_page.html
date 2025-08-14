@@ -31,12 +31,14 @@
         font-family: 'Open Sans Condensed', sans-serif;
         max-width: 800px;
         margin: auto;
+        line-height: 1.6;
         }
 
         header, footer {
         background-color: var(--c-background-highlights);
         color: var(--base-font-color);
         text-align: center;
+        padding: 10px;
         }
 
         header h1 {
@@ -46,6 +48,7 @@
 
         article a {
         color: var(--c-magenta);
+        transition: color 0.3s ease;
         }
 
         article a:hover {
@@ -64,10 +67,24 @@
         justify-content: center;
         padding: 0;
         margin: 0;
+        background-color: var(--c-background-highlights);
         }
 
         nav li {
         margin: 0 10px;
+        }
+
+        nav a {
+        color: var(--base-font-color);
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+        background-color: var(--c-orange);
+        color: white;
+        border-radius: 5px;
         }
 
         aside {
@@ -76,6 +93,7 @@
 
         aside a {
         color: var(--c-red);
+        transition: color 0.3s ease;
         }
 
         aside a:hover {
