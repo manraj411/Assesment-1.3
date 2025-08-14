@@ -29,6 +29,8 @@
         background-color: var(--c-background-color);
         color: var(--base-font-color);
         font-family: 'Open Sans Condensed', sans-serif;
+        max-width: 800px;
+        margin: auto;
         }
 
         header, footer {
@@ -41,11 +43,11 @@
         font-size: 150%;
         color: var(--c-yellow);
         }
-        
+
         article a {
         color: var(--c-magenta);
         }
-        
+
         article a:hover {
         color: var(--c-orange);
         }
@@ -53,6 +55,7 @@
         article h3 {
         border: 3px solid var(--c-cyan);
         padding: 5px;
+        margin-top: 50px;
         }
 
         nav ul {
@@ -65,6 +68,31 @@
 
         nav li {
         margin: 0 10px;
+        }
+
+        aside {
+        color: var(--c-green);
+        }
+
+        aside a {
+        color: var(--c-red);
+        }
+
+        aside a:hover {
+        color: var(--c-blue);
+        }
+
+        main {
+        display: flex;
+        gap: 20px;
+        }
+
+        article {
+        flex: 3;
+        }
+        
+        aside {
+        flex: 1;
         }
 
     </style>
